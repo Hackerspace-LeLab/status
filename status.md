@@ -17,9 +17,8 @@ author:
 
 > Art. 2
 >
-> L'Association a pour but de Mettre à disposition un espace
-> collaboratif à profit des makers, startups, inventeurs, innovateurs
-> dans le but de
+> L'Association a pour but de proposer un espace collaboratif à profit
+> des makers, startups, inventeurs, innovateurs dans le but de
 
 -   s'initier aux techniques contemporaines d'ingénierie (conception,
     > production, assemblage) dans le respect des normes
@@ -36,11 +35,11 @@ author:
 -   des partenariats avec les FABLABs, les Makerspaces, les
     > Hackerspaces, les Chaos Computer Clubs constitués ;
 
--   des programmes de recherche autofinancés dont la publication et la
-    > participation restent ouverters à tous ;
+-   des programmes de recherche autofinancés dont la publication, la
+    > participation et l'accès restent ouverts à tous ;
 
--   des solutions aux problématiques de proximité et liés à
-    > l'environnement, à la santé et à la mobilité.
+-   des solutions appliquées à l'environnement, à la santé et à la
+    > mobilité.
 
 > *De par la loi, la transformation du but (ou mission) de l'association
 > requiert l'accord de chacun des membres de l'association. Veillez donc
@@ -391,6 +390,6 @@ author:
 >
 > Au nom de l'Association
 >
-> Président: Monsieur Huguenin-Elie Steve
+> Président: M. Huguenin-Elie Steve
 >
-> Vice-présidente: Madame Rachel Aronoff
+> Vice-présidente: Mme Aronoff Rachel, PhD
