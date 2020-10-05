@@ -1,0 +1,532 @@
+% 
+% Author Steve Huguenin-Elie
+% Legal Copyrights to Hackerspace Lelab
+% Distribution Licensed CC BY-SA
+% Description --
+% Association status of Hackerspace Lelab
+% Work based on Maj 2019 benevolat-vaud.ch
+%
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\includegraphics[width=1.5in,height=1.15764in]{media/image1.jpeg}
+
+\textbf{Canevas de statuts-types (\emph{avec commentaires})}
+
+\textbf{Pour la création d'une Association (articles 60 et suivants CC)}
+
+\begin{quote}
+\textbf{Forme juridique, but et siège}
+
+Art. 1
+
+Sous le nom de Hackerspace Le Lab il est créé une Association à but non lucratif
+régie par les présents statuts et par les articles 60 et suivants du
+Code civil suisse.
+
+Art. 2
+
+L'Association a pour but de Mettre à disposition un espace collaboratif à profit des makers, startups, inventeurs, innovateurs dans le but de
+\begin{enumerate}
+  \item S'initier aux techniques contemporaines d'ingénierie (conception, production, assemblage) dans le respect des normes environnementales.
+  \item Trouver du soutien dans le développement d'une idée, concept en produit innovant à fort potentiel d'exploitation régionale.
+  \item Partager des connaissances et des techniques nouvelles liées à l'industrie microtechnique ou informatique.
+\end{enumerate} 
+
+Pour atteindre ce but, l'association développe notamment~:
+\begin{enumerate}
+  \item Des partenariats avec les fablabs, les makerspaces, les Hackerspaces, les Chaos Computer Clubs constitués
+  \item Des programmes de recherche autofinancés dont la publication et la participation restent ouverters à tous.
+  \item Des solutions aux problématiques de proximité et liés à l'environnement, à la santé et à la mobilité.
+\end{enumerate}
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+\item
+\end{itemize}
+
+\begin{quote}
+\emph{De par la loi, la transformation du but (ou mission) de
+l'association requiert l'accord de chacun des membres de l'association.
+Veillez donc à définir le(s) but(s) de l'Association avec précision mais
+de manière non restrictive pour laisser de la souplesse à la poursuite
+des objectifs et des moyens mis en œuvre pour les atteindre.}
+
+\emph{A l'image de notre proposition, cet article est fréquemment
+formulé en deux temps. Le premier décrit la mission dans les grandes
+lignes et le second, plus pragmatique, évoque les principaux moyens mis
+en œuvre par l'association pour atteindre son but.}
+
+Art. 3
+
+Le siège de l'Association est  au domicile du président Sa durée est illimitée.
+
+\emph{Ne pas indiquer d'adresse postale afin de ne pas avoir à modifier
+les statuts chaque fois qu'il y a un déménagement. Le nom d'une ville,
+d'un canton ou la formule «~au domicile du président / trésorier
+\ldots~» conviennent parfaitement.}
+
+\emph{Il n'est pas obligatoire d'ouvrir le compte de votre association
+là où celle-ci siège.}
+
+\textbf{Organisation}
+
+Art. 4
+
+Les organes de l'Association sont :
+\end{quote}
+
+\begin{itemize}
+\item
+  \begin{quote}
+  l'Assemblée générale~;
+  \end{quote}
+\item
+  \begin{quote}
+  le Comité~;
+  \end{quote}
+\item
+  \begin{quote}
+  l'Organe de contrôle des comptes.
+  \end{quote}
+\end{itemize}
+
+\begin{quote}
+Art. 5
+
+Les ressources de l'Association sont constituées par les cotisations
+ordinaires ou extraordinaires de ses membres, des dons, ou legs, par des
+produits des activités de l'Association et, le cas échéant, par des
+subventions des pouvoirs publics.
+
+L'exercice social commence le 1er janvier et se termine le 31 décembre
+de chaque année.
+
+Ses engagements sont garantis par ses biens, à l'exclusion de toute
+responsabilité personnelle de ses membres.
+
+\textbf{Membres}
+
+Art. 6
+
+Peuvent être membres toutes les personnes ou organismes intéressés à la
+réalisation des objectifs fixés par l'art. 2.
+
+\emph{Si vous pensez créer/rédiger une charte qui récapitule les valeurs
+et principes d'action de votre association, il peut être intéressant
+d'en faire mention ici.}
+
+Art. 7
+
+L'Association est composée de :
+\end{quote}
+
+\begin{itemize}
+\item
+  \begin{quote}
+  membres individuels ;
+  \end{quote}
+\item
+  \begin{quote}
+  membres collectifs ;
+  \end{quote}
+\end{itemize}
+
+\begin{quote}
+\emph{Vous avez la possibilité d'envisager plusieurs catégories de
+membres~comme des membres bienfaiteurs, membres de droit, membres
+associés etc.}
+
+\emph{Les membres collectifs peuvent être assimilés aux membres
+individuels ou disposer d'un nombre de voix supérieur en fonction de
+critères tels que leur taille, leur légitimité etc.}
+
+\emph{Il est important de fixer dans les statuts les éventuelles
+distinctions au niveau du droit de vote. (Cf. art. 14).}
+
+Art. 8
+
+Les demandes d'admission sont adressées au Comité. Le Comité admet les
+nouveaux membres et en informe l'Assemblée générale.
+
+Art. 9
+
+La qualité de membre se perd :
+
+a) par la démission. Dans tous les cas la cotisation de l'année reste
+due.
+
+b) par l'exclusion pour de ``~justes motifs~''.
+
+L'exclusion est du ressort du Comité. La personne concernée peut
+recourir contre cette décision devant l'Assemblée générale. Le non
+paiement répété des cotisations (deux ans) entraîne l'exclusion de
+l'Association.
+
+\emph{La rédaction d'un article statutaire prévoyant l'exclusion d'un
+membre pour de «~justes motifs~» a pour conséquence que le Juge n'a pas
+le pouvoir de contrôler les motifs de la décision d'exclusion.}
+
+\emph{Il convient de préciser dans les statuts la durée de non paiement
+des cotisations susceptible d'entraîner l'exclusion.}
+
+\textbf{Assemblée générale}
+
+Art. 10
+
+L'Assemblée générale est le pouvoir suprême de l'Association. Elle
+comprend tous les membres de celle-ci.
+
+Art. 11
+
+Les compétences de l'Assemblée générale sont les suivantes. Elle :
+\end{quote}
+
+\begin{itemize}
+\item
+  \begin{quote}
+  adopte et modifie les statuts~;
+  \end{quote}
+\item
+  \begin{quote}
+  élit les membres du Comité et de l'Organe de contrôle des comptes~;
+  \end{quote}
+\item
+  \begin{quote}
+  détermine les orientations de travail et dirige l'activité de
+  l'Association~;
+  \end{quote}
+\item
+  \begin{quote}
+  approuve les rapports, adopte les comptes et vote le budget~;
+  \end{quote}
+\item
+  \begin{quote}
+  donne décharge de leur mandat au Comité et à l'Organe de contrôle des
+  comptes~;
+  \end{quote}
+\item
+  \begin{quote}
+  fixe la cotisation annuelle des membres individuels et des membres
+  collectifs~;
+  \end{quote}
+\item
+  \begin{quote}
+  prend position sur les autres projets portés à l'ordre du jour~:
+  \end{quote}
+\end{itemize}
+
+\begin{quote}
+L'Assemblée générale peut saisir ou être saisie de tout objet qu'elle
+n'a pas confié à un autre organe.
+
+Art. 12
+
+Les assemblées sont convoquées au moins 20 jours à l'avance par le
+Comité. Le Comité peut convoquer des assemblées générales
+extraordinaires aussi souvent que le besoin s'en fait sentir.
+
+\emph{Sans précision, on considère que l'invitation est transmise par
+courrier écrit. Si vous souhaitez, dans la mesure du possible, convoquer
+les AG par courrier électronique, nous vous recommandons d'en faire
+mention ici.}
+
+Art. 13
+
+L'assemblée est présidée par le PrésidentE ou un autre membre du Comité.
+
+Le secrétaire de l'Association ou un autre membre du comité tient le
+procès-verbal de l'Assemblée~; il le signe avec le président. \emph{il
+le signe avec le président. u comité tient le proclurs, n'unication
+d'tion de l'hacune d'ès-verbal}
+
+Art. 14
+
+Les décisions de l'Assemblée générale sont prises à la majorité simple
+des membres présents. En cas d'égalité des voix, celle du présidentE est
+prépondérante.
+
+Les décisions relatives à la modification des statuts ne peuvent être
+prises qu'à la majorité des 2/3 des membres présents.
+
+\emph{Sans précision dans les statuts, les décisions sont prises à la
+majorité des voix des membres présents. Les abstentions et les suffrages
+nuls sont considérés comme des votes négatifs, car ils sont pris en
+compte pour le calcul de la majorité~; il est donc possible de prévoir
+ici que les abstentions ne comptent pas comme des votes négatifs.}
+
+\emph{Il est possible de prévoir que les décisions sont prises à la
+majorité absolue (+ de 50\%) ou à la majorité relative (ce qui obtient
+le plus de voix). A défaut d'indication, l'application de la majorité
+relative est préconisée (plus simple et plus rapide); dans un tel cas,
+il devra en être fait mention lors de la convocation de l'AG.~}
+
+\emph{Pour certains objets, les statuts peuvent aussi prévoir une
+majorité qualifiée (2/3 ou 3/4) ou un quorum de présence.}
+
+\emph{Si votre Association est une faîtière, indiquez le nombre de voix
+qui va être accordé aux sections. Par exemple, vous pouvez écrire `` Les
+sections locales disposent de 10 voix jusqu'à 50 membres ; 20 voix
+jusqu'à 100 membres ''.}
+
+Art. 15
+
+Les votations ont lieu à main levée. À la demande de 5 membres au moins,
+elles auront lieu au scrutin secret. Il n'y a pas de vote par
+procuration.
+
+\emph{Les statuts peuvent admettre le vote par procuration. Par
+exemple~ainsi «~Les membres absents ont la possibilité de donner
+procuration à l'un des membres de l'Association. Toutefois le
+représentant ne peut recevoir plus de deux procurations.~»}
+
+Art. 16
+
+L'Assemblée se réunit au moins une fois par an sur convocation du
+Comité.
+
+Art. 17
+
+L'ordre du jour de cette assemblée annuelle (dite ordinaire) comprend
+nécessairement :
+\end{quote}
+
+\begin{itemize}
+\item
+  \begin{quote}
+  le rapport du Comité sur l'activité de l'Association pendant l'année
+  écoulée~;
+  \end{quote}
+\item
+  \begin{quote}
+  un échange de points de vue/décisions concernant le développement de
+  l'Association~;
+  \end{quote}
+\item
+  \begin{quote}
+  les rapports de trésorerie et de l'Organe de contrôle des comptes~;
+  \end{quote}
+\item
+  \begin{quote}
+  l'élection des membres du Comité et de l'Organe de contrôle des
+  comptes~;
+  \end{quote}
+\item
+  \begin{quote}
+  les propositions individuelles.
+  \end{quote}
+\end{itemize}
+
+\begin{quote}
+Art. 18
+
+Le Comité est tenu de porter à l'ordre du jour de l'Assemblée générale
+(ordinaire ou extraordinaire) toute proposition d'un membre présentée
+par écrit au moins 10 jours à l'avance.
+
+\emph{Si vous décidez de modifier le délai fixé ici à 10 jours, veillez
+à modifier l'article 12 en conséquence.}
+
+Art. 19
+
+L'Assemblée générale extraordinaire se réunit sur convocation du Comité
+ou à la demande d'un cinquième des membres de l'Association.
+
+\emph{Ici, la valeur d'un 1/5 des membres est imposée par la loi. Il est
+par exemple possible de prévoir un nb moins important de membres, même
+un seul membre p.ex.}
+
+\textbf{Comité}
+
+Art. 20
+
+Le Comité exécute et applique les décisions de l'Assemblée générale. Il
+conduit l'Association et prend toutes les mesures utiles pour que le but
+fixé soit atteint. Le Comité statue sur tous les points qui ne sont pas
+expressément réservés à l'Assemblée générale.
+
+Art. 21
+
+Le Comité se compose au minimum de cinq membres, nommés pour deux ans
+par l'Assemblée générale. Ils sont rééligibles deux fois.
+
+\emph{Le «~minimum~» dépend des caractéristiques et notamment de la
+taille de votre association. Privilégiez un nombre impair.}
+
+\emph{La durée idéale des mandats dépend de nombreux facteurs tels que
+la complexité des activités et de l'organisation de l'association, du
+nombre de membres soit des potentiels remplaçants au comité etc.}
+
+\emph{Limiter le nombre de réélection oblige à terme le renouvèlement du
+comité (vous n'êtes pas tenus de délimiter le nombre de réélections
+possibles).}
+
+Art. 22
+
+Le Comité se constitue lui-même. Il se réunit autant de fois que les
+affaires de l'Association l'exigent. Le comité délibère valablement,
+quel que soit le nombre des membres présent-e-s. Il prend ses décisions
+à la majorité simple des membres présent-e-s
+
+\emph{«~se constitue lui-même~» signifie que les membres de cet organe
+vont décider eux-mêmes de la façon dont ils vont se répartir les
+différentes fonctions (présidence, secrétariat, comptabilité, etc.).
+Cela peut faciliter la prise de responsabilités lorsqu'il n'est pas
+possible d'élire un président lors de l'Assemblée générale, faute de
+candidats disposés à assumer cette fonction.}
+
+\emph{Si vous souhaitez néanmoins que ce soit l'AG qui élise
+individuellement le président et/ou les autres membres / fonctions du
+comité, veillez à modifier les articles 11 et 17.}
+
+Art. 23~~~
+
+En cas de vacance en cours de mandat, le Comité peut se compléter par
+cooptation jusqu'à la prochaine assemblée générale.
+
+Si la fonction de Président(e) devient vacante, le (la)
+vice-Président(e) ou un autre membre du Comité lui succède jusqu'à la
+prochaine assemblée générale.
+
+Art. 24
+
+L'Association est valablement engagée par la signature collective de
+deux membres du Comité.
+
+Art. 25
+
+Le Comité est chargé :
+\end{quote}
+
+\begin{itemize}
+\item
+  \begin{quote}
+  de prendre les mesures utiles pour atteindre les objectifs visés;
+  \end{quote}
+\item
+  \begin{quote}
+  de convoquer les assemblées générales ordinaires et extraordinaires~;
+  \end{quote}
+\item
+  \begin{quote}
+  de prendre les décisions relatives à l'admission et à la démission des
+  membres ainsi qu'à leur exclusion éventuelle~;
+  \end{quote}
+\item
+  \begin{quote}
+  de veiller à l'application des statuts, de rédiger les règlements et
+  d'administrer les biens de l'Association.
+  \end{quote}
+\end{itemize}
+
+\begin{quote}
+Art. 26
+
+Le Comité est responsable de la tenue des comptes de l'Association.
+
+Art. 27
+
+Le Comité engage (licencie) les collaborateurs salariés et bénévoles de
+l'Association. Il peut confier à toute personne de l'Association ou
+extérieure à celle-ci un mandat limité dans le temps.
+
+\emph{Si des salariés sont engagés, ils peuvent être invités à
+participer aux travaux du Comité avec une voix consultative. Dans les
+grandes Associations, le personnel salarié peut se faire représenter par
+une ou deux personnes disposant d'une voix délibérative. Le cas échéant,
+veillez à préciser ces modalités dans les statuts.}
+
+\textbf{Organe de contrôle}
+
+Art. 28
+
+L'organe de contrôle des comptes vérifie la gestion financière de
+l'Association et présente un rapport à l'Assemblée générale. Il se
+compose de deux vérificateurs élus par l'Assemblée générale.
+
+\textbf{Dissolution}
+
+Art. 29
+
+La dissolution de l'Association est décidée par l'Assemblée générale à
+la majorité des deux tiers des membres présents. L'actif éventuel sera
+attribué à un organisme se proposant d'atteindre des buts analogues.
+
+Les présents statuts ont été adoptés par l'assemblée constitutive
+du\ldots{} à\ldots{}
+
+Au nom de l'Association
+
+Président: Monsieur Huguenin-Elie Steve
+Membre constitutive: Madame Rachel Aronoff
+\end{quote}
+
+\includegraphics[width=1.95833in,height=0.94792in]{media/image2.jpeg}
+
+\end{document}
